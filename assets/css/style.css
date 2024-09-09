@@ -15,7 +15,7 @@ h2 {
     margin-top: 100px;
 }
 
-button {
+buttona {
     margin-left: 27%;
     background-color: #0ef;
     border: none;
@@ -30,13 +30,13 @@ button {
     border-radius: 10px;
 }
 
-.button1 {
+.buttona1 {
     background-color: white; 
     color: black; 
     border: 2px solid #0ef;
   }
   
-  .button1:hover {
+  .buttona1:hover {
     background-color: #0ef;
     color: white;
   }
