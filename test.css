@@ -1,3 +1,7 @@
+.search__container {
+    font-family: 'Poppin', sans-serif;
+}
+
 .search-greeting__logo-container {
     margin-left: 45%;
     margin-top: 60px;
@@ -6,6 +10,7 @@
 .search_greeting {
     margin-left: 36%;
     margin-top: 20px;
+    font-weight: 400;
 }
 
 #search {
