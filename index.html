@@ -15,43 +15,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Hush Help</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/icons8-quarantine-outline-gradient-96.png">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/icons8-quarantine-outline-gradient-96.png">
 </head>
 <body>
-    <header role="none">
+    <div class="search__container">
+        <a class="search__greeting">
+            <div class="search-greeting__logo-container">
+                <img class="search-greeting__logo" src="assets/img/icons8-quarantine-outline-gradient-96.png" title="Code Hush logo" alt="" aria-hidden="true">
+            </div>
+        </a>
+        <h1 class="search_greeting">
+            <div>How Can We Help You?</div>
+        </h1>
+       <!-- <form class="search_form" action="/search?hl=en" id="search-form" role="search"> -->
+        <form class="search_form" action="https://support.codehush.com/omar" id="search-form" method="get">
+            <div id="search">
+                <svg viewBox="0 0 420 60" xmlns="http://www.w3.org/2000/svg">
+                    <rect class="bar"/>
+                    
+                    <g class="magnifier">
+                        <circle class="glass"/>
+                        <line class="handle" x1="32" y1="32" x2="44" y2="44"></line>
+                    </g>
+                </svg>
+                <input placeholder="Describe your issue" value aria-label="Describe your issue to find information that might help you." autocomplete="off" name="q" spellcheck="false" type="search" aria-haspopup="false" role="combobox" aria-autocomplete="both" dir="ltr" style="outline: none;"/>
+            </div>
+        </form>
+        
+        <div id="results"></div>
+    </div>
 
-        <div class="search__container">
-            <a class="search__greeting">
-                <div class="search-greeting__logo-container">
-                    <img class="search-greeting__logo" src="assets/img/icons8-quarantine-outline-gradient-96.png" title="Code Hush logo" alt="" aria-hidden="true">
-                </div>
-            </a>
-            <h1 class="search_greeting">
-                <div>How Can We Help You?</div>
-            </h1>
-            <form class="search_form" action="/search?hl=en" id="search-form" role="search">
-                <input class="search_input" placeholder="Describe your issue" value aria-label="Describe your issue to find information that might help you." autocomplete="off" name="q" spellcheck="false" type="search" aria-haspopup="false" role="combobox" aria-autocomplete="both" dir="ltr" style="outline: none;">
-                <input name="form_search" type="hidden" value="true">
-                <button class="search_search-button" aria-label="search">
-                    <svg class="search_search-icon" viewBox="0 0 24 24">
-                        <path d="M20.49 19l-5.73-5.73C15.53 12.2 16 10.91 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.41 0 2.7-.47 3.77-1.24L19 20.49 20.49 19zM5 9.5C5 7.01 7.01 5 9.5 5S14 7.01 14 9.5 11.99 14 9.5 14 5 11.99 5 9.5z"></path>
-                        <path d="M0 0h24v24H0V0z" fill="none"></path>
-                    </svg>
-                </button>
-                <button class="search__clear-button search__clear-button--hidden" aria-label="Clear search box">
-                    <svg class="search__clear-icon" viewBox="0 0 48 48">
-                        <path d="M38 12.83L35.17 10 24 21.17 12.83 10 10 12.83 21.17 24 10 35.17 12.83 38 24 26.83 35.17 38 38 35.17 26.83 24z"></path>
-                    </svg>
-                </button>
-            </form>
-        </div>
-    </header>
-
-    <!-- <button type="button" onclick="alert('Coming Soon')" class="button button1">Search<span class="material-symbols-outlined">search</span></button> -->
+    <script src="assets/js/style.js"></script>
 </body>
 </html>
