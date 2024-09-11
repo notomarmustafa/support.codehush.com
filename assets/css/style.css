@@ -83,7 +83,7 @@
 
 .info__container {
 	position: absolute;
-	margin: 50px 0px 0px 150px;
+	margin: 50px 0px 0px 200px;
 }
 
 .cards {
@@ -91,7 +91,7 @@
 }
 
 .card-info:hover {
-	box-shadow: 0px 4px 8px 0px rgba(228, 0, 0, 0.906);
+	box-shadow: 0px 0px 5px 5px #0ef;
 	transition: 0.4s;
 }
 
