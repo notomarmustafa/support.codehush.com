@@ -12,7 +12,7 @@ searchInput.addEventListener("input", e => {
     })
 })
 
-fetch("https://jsonplaceholder.typicode.com/users")
+fetch("https://support.codehush.com/database/users/users-list")
 .then(res => res.json())
 .then(data => {
     users = data.map(user => {
