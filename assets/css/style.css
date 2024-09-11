@@ -87,11 +87,12 @@
 }
 
 .cards {
-	
+	float: left;
 }
 
-.cards:hover {
+.card-info:hover {
 	box-shadow: 0px 4px 8px 0px rgba(228, 0, 0, 0.906);
+	transition: 0.4s;
 }
 
 .card-info {
@@ -100,17 +101,17 @@
 }
 
 .card1 {
-	
+	padding: 0px 50px 0px 0px;
 }
 
 .card2 {
-	padding: 50px 0px 0px 0px;
+	padding: 50px 50px 0px 0px;
 }
 
 .card3 {
-	padding: 50px 0px 0px 0px;
+	padding: 50px 50px 0px 0px;
 }
 
 .card4 {
-	padding: 50px 0px 0px 0px;
+	padding: 50px 50px 50px 0px;
 }
