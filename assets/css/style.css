@@ -80,3 +80,37 @@
 	grid-area: results;
 	background: hsl(0, 0%, 95%);
 }
+
+.info__container {
+	position: absolute;
+	margin: 50px 0px 0px 150px;
+}
+
+.cards {
+	
+}
+
+.cards:hover {
+	box-shadow: 0px 4px 8px 0px rgba(228, 0, 0, 0.906);
+}
+
+.card-info {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding: 50px 50px 50px 50px;
+}
+
+.card1 {
+	
+}
+
+.card2 {
+	padding: 50px 0px 0px 0px;
+}
+
+.card3 {
+	padding: 50px 0px 0px 0px;
+}
+
+.card4 {
+	padding: 50px 0px 0px 0px;
+}
