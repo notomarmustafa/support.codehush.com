@@ -147,3 +147,28 @@
 	font-size: medium;
 	font-weight: 400;
 }
+
+@media (max-width: 1100px) {
+	.search_greeting {
+		margin-right: -100px;
+	}
+}
+
+@media (max-width: 950px) {
+	.search_greeting {
+		margin-right: -150px;
+	}
+}
+
+@media (max-width: 426px) {
+	.search_greeting {
+		margin-left:40px;
+		margin-right: 0px;
+	}
+	.search-greeting__logo-container {
+		margin-left: 150px;
+	}
+	.card {
+		margin-left: 1px;
+	}
+}
