@@ -160,7 +160,7 @@
 	}
 }
 
-@media (max-width: 426px) {
+@media (max-width: 430px) {
 	.search_greeting {
 		margin-left:40px;
 	}
@@ -169,5 +169,30 @@
 	}
 	.card {
 		margin-left: 1px;
+	}
+}
+
+@media (max-width: 376px) {
+	.search_greeting {
+		margin-left: 20px;
+	}
+	h1 {
+		font-size: 31px;
+	}
+	.search-greeting__logo-container {
+		margin-left: 150px;
+	}
+	.card {
+		margin-left: 1px;
+	}
+	#search {
+		margin-left: 50px;
+	}
+	svg {
+		width: 370px;
+		height: 60px;
+	}
+	input::placeholder {
+		
 	}
 }
