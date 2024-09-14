@@ -148,6 +148,18 @@
 	font-weight: 400;
 }
 
+@media (max-width: 2560px min-width: 1440px) {
+	.search_greeting {
+		margin-left: 40%;
+	}
+	.search {
+		padding-right: 150px;
+	}
+	.card {
+		width: 150px;
+	}
+}
+
 @media (max-width: 1100px) {
 	.search_greeting {
 		
@@ -172,7 +184,7 @@
 	}
 }
 
-@media (max-width: 376px) {
+@media (max-width: 375px) {
 	.search_greeting {
 		margin-left: 20px;
 	}
@@ -183,10 +195,10 @@
 		margin-left: 150px;
 	}
 	.card {
-		margin-left: 1px;
+		margin-left: -10px;
 	}
-	#search {
-		margin-left: 50px;
+	.search {
+		padding-left: 50px;
 	}
 	svg {
 		width: 370px;
@@ -195,4 +207,9 @@
 	input::placeholder {
 		
 	}
+	.card {
+		width: 150px;
+		margin-left: 5px;
+	}
+
 }
