@@ -148,7 +148,7 @@
 	font-weight: 400;
 }
 
-@media (max-width: 2560px min-width: 1440px) {
+@media (max-width: 2560px) and (min-width: 1440px) {
 	.search_greeting {
 		margin-left: 40%;
 	}
