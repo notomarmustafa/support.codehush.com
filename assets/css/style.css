@@ -147,3 +147,89 @@
 	font-size: medium;
 	font-weight: 400;
 }
+
+@media (min-width: 2000px) {
+	.search_greeting {
+		margin-left: 42%;
+	}
+	.search {
+		padding-right: 130px;
+	}
+	.card {
+		width: 150px;
+	}
+}
+
+@media (max-width: 1999px) and (min-width:1441px) {
+	.search_greeting {
+		margin-left: 42%;
+	}
+	.search {
+		padding-right: 130px;
+	}
+	.card {
+		width: 150px;
+	}
+}
+
+@media (max-width: 1440px) and (min-width: 1099px) {
+
+}
+
+@media (max-width: 1100px) {
+	.search_greeting {
+		
+	}
+}
+
+@media (max-width: 950px) {
+	.search_greeting {
+		
+	}
+}
+
+@media (max-width:853px) {
+	
+}
+
+@media (max-width: 430px) {
+	.search_greeting {
+		margin-left:40px;
+	}
+	.search-greeting__logo-container {
+		margin-left: 150px;
+	}
+	.card {
+		margin-left: 1px;
+	}
+}
+
+@media (max-width: 375px) {
+	.search_greeting {
+		margin-left: 20px;
+	}
+	h1 {
+		font-size: 31px;
+	}
+	.search-greeting__logo-container {
+		margin-left: 150px;
+	}
+	.card {
+		margin-left: -10px;
+	}
+	.search {
+		padding-left: 50px;
+	}
+	svg {
+		width: 370px;
+		height: 60px;
+	}
+	input::placeholder {
+		
+	}
+	.card {
+		width: 150px;
+		margin-left: 5px;
+	}
+
+}
