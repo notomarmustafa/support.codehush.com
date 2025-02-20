@@ -160,7 +160,7 @@
 	}
 }
 
-@media (max-width: 1999px) and (min-width:1441px) {
+@media (max-width: 1999px) and (min-width:1601px) {
 	.search_greeting {
 		margin-left: 42%;
 	}
@@ -172,8 +172,16 @@
 	}
 }
 
-@media (max-width: 1440px) and (min-width: 1099px) {
+@media (max-width: 1600px) and (min-width: 1450px) {
+	.search-greeting {
+		margin-left: 10%;
+	}
+}
 
+@media (max-width: 1440px) and (min-width: 1099px) {
+	.search-greeting {
+		margin-left: 10%;
+	}
 }
 
 @media (max-width: 1100px) {
