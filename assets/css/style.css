@@ -160,7 +160,11 @@
 	}
 }
 
+<<<<<<< HEAD
 @media (max-width: 1999px) and (min-width:1601px) {
+=======
+@media (max-width: 1999px) and (min-width:1441px) {
+>>>>>>> 8fd7315b2194f272fbf3e7c211b9b820db0e0988
 	.search_greeting {
 		margin-left: 42%;
 	}
@@ -172,6 +176,7 @@
 	}
 }
 
+<<<<<<< HEAD
 @media (max-width: 1600px) and (min-width: 1450px) {
 	.search-greeting {
 		margin-left: 10%;
@@ -182,6 +187,10 @@
 	.search-greeting {
 		margin-left: 10%;
 	}
+=======
+@media (max-width: 1440px) and (min-width: 1099px) {
+
+>>>>>>> 8fd7315b2194f272fbf3e7c211b9b820db0e0988
 }
 
 @media (max-width: 1100px) {
