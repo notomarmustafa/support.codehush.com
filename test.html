@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentation</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
+    .entry { padding: 10px; border: 1px solid #ddd; margin-top: 10px; }
+    .search { margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Documentation</h1>
+
+  <div class="search">
+    <input type="text" id="searchInput" placeholder="Search..." oninput="searchEntries()">
+  </div>
+
+  <div id="documentationEntries"></div>
+
+  <script>
+    const STORAGE_KEY = 'mockApiData';
+
+    // Load entries from Local Storage
+    function loadEntries() {
+      const entriesDiv = document.getElementById('documentationEntries');
+      entriesDiv.innerHTML = '';
+      const entries = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+
+      entries.forEach(entry => {
+        const entryDiv = document.createElement('div');
+        entryDiv.className = 'entry';
+        entryDiv.innerHTML = `<p><strong>ID:</strong> ${entry.id}</p><p><strong>Data:</strong> ${entry.data}</p>`;
+        entriesDiv.appendChild(entryDiv);
+      });
+    }
+
+    // Function to search entries
+    function searchEntries() {
+      const query = document.getElementById('searchInput').value.toLowerCase();
+      const entriesDiv = document.getElementById('documentationEntries');
+      const entries = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+      entriesDiv.innerHTML = '';
+
+      const filteredEntries = entries.filter(entry => entry.data.toLowerCase().includes(query));
+      filteredEntries.forEach(entry => {
+        const entryDiv = document.createElement('div');
+        entryDiv.className = 'entry';
+        entryDiv.innerHTML = `<p><strong>ID:</strong> ${entry.id}</p><p><strong>Data:</strong> ${entry.data}</p>`;
+        entriesDiv.appendChild(entryDiv);
+      });
+    }
+
+    // Load entries when the page loads
+    loadEntries();
+  </script>
+</body>
+</html>
